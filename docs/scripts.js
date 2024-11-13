@@ -12,7 +12,7 @@ document.querySelectorAll('.lightbox').forEach(item => {
 });
 
 // Instagram feed integration (replace with your actual token)
-const token = 'IGQWRQc0xmZA3FCSmlCTGVMeXVjSEJGaVZAsdnd3VTg4S1V2dlNvRmJWU01qSkpVZAUk0XzkyVFVHa0czNVZAXbHhwSVV2LVJDU29VdmtjY1JvOWlQeUpVei1XRHZAKelNYUjJEVnpORnpNdFltYTNWVWp6UVBwNzF1eVkZD';
+const token = 'LaPutaMadre';
 fetch(`https://graph.instagram.com/me/media?fields=id,caption,media_url&access_token=${token}`)
     .then(response => response.json())
     .then(data => {
